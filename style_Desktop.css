@@ -1,0 +1,286 @@
+/*데스크탑*/
+@media only screen and (min-width:1067px){
+#world{
+    margin: 0 auto;
+    /* width: 1234px; */
+    width: 65.91%;
+    position: relative;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#wrap{
+    background-color: #fff;
+    /* width: 1201px; */
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid rgb(216, 215, 215);;
+}
+header{
+    background-image: url(images/topbg3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 220px;
+}
+header img{
+    width: 100%;
+    height: 220px;
+}
+nav{
+    padding: 15px;
+    font-size: 18px;
+    background-color: #c51a3a;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+.nav-item a:hover{
+    background-color: #fff;
+    border-radius: 10px;
+    padding:10px 10px 20px 10px;
+    color:red;
+}
+.nav-item{
+    margin-left: 15px;
+    display:inline-block;
+    font-weight: normal;
+}
+article{
+    display:flex;
+}
+.article-content{
+    padding: 20px;
+}
+.article-content{
+    font-size: 18px;
+    font-weight: bold;
+}
+.article-content span{
+    color:orange;
+}
+aside{
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    display:flex;
+}
+.flex-container1{
+    width: 50%;
+    display:flex;
+    justify-content: space-between;
+}
+.flex-container2{
+    width: 50%;
+    display:flex;
+    justify-content: space-between;
+}
+.consult{
+    width: 250px;
+}
+.consult-header{
+    width: 210px;
+    padding: 9px;
+    background-color: #e76c6e;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+aside ul li{
+    font-size: 14px;
+}
+aside ul li span{
+    font-weight: bold;
+}
+aside img{
+    width: 290px;
+    height: 202px;
+}
+.flower1, .flower2, .flower3{
+    padding-right: 10px;
+    overflow: hidden;
+    position: relative;
+    border: 1px dashed #000;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.flower-name1, .flower-name1, .flower-name1{
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    left: 0px;   
+    top: 120px;
+}
+aside .flower1 span, .flower2 span, .flower3 span{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color:#8e3e61;
+    position: relative;
+    right: 15px;
+}
+aside p{
+    color: #3e71b2;
+    font-weight: bold;
+    font-size: 23px;
+    margin: 5px;
+    position: relative;
+}
+footer{
+    border-top: 1px solid rgb(216, 215, 215);
+}
+footer ul{
+    padding: 0;
+    list-style:none;
+}
+footer ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+footer div{
+    position: relative;
+    top: -38px;
+    right: 10px;
+    float:right;
+}
+}
+
+/*테블릿*/
+@media only screen and (max-width:1066px){
+    #world{
+        margin: 0 auto;
+        width: 753px;
+        position: relative;
+        background-image: url(../images/background.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    #wrap{
+        background-color: #fff;
+        width: 696px;
+        margin: 0 auto;
+        border: 1px solid rgb(216, 215, 215);;
+    }
+    header{
+        width: 696px;
+        height: 220px;
+        background-image: url(images/topbg2.png);
+        background-size: 100% 100%;
+    }
+    nav{
+        padding: 15px;
+        font-size: 18px;
+        background-color: #c51a3a;
+    }
+    nav a{
+        text-decoration: none;
+        color:white;
+    }
+    .nav-item a:hover{
+        background-color: #fff;
+        border-radius: 10px;
+        padding:10px 10px 20px 10px;
+        color:red;
+    }
+    .nav-item{
+        margin-left: 15px;
+        display:inline-block;
+        font-weight: normal;
+    }
+    article{
+        display:flex;
+    }
+    .article-content{
+        padding: 20px;
+    }
+    .article-content{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .article-content span{
+        color:orange;
+    }
+    aside{
+        padding: 10px;
+    }
+    .consult{
+        width: 290px;
+    }
+    .flower1{
+        margin-left: 30px;
+    }
+    .flex-container1{
+        display:flex;
+        justify-content: space-around ;
+        margin-bottom: 10px;
+    }
+    .flex-container2{
+        display:flex;
+        justify-content: space-around ;
+    }
+    .consult-header{
+        padding: 9px;
+        background-color: #e76c6e;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+    }
+    aside ul li{
+        font-size: 14px;
+    }
+    aside ul li span{
+        font-weight: bold;
+    }
+    aside img{
+        width: 278px;
+        height: 202px;
+    }
+    .flower1, .flower2, .flower3{
+        padding-right: 10px;
+        overflow: hidden;
+        display: inline-block;
+        position: relative;
+        border: 1px dotted #000;
+        border-radius: 15px;
+    }
+    .flower-name1, .flower-name2, .flower-name3{
+        background-color: rgba(255,255,255,0.5);
+        width: 278px;
+        text-align: right;
+        position: absolute;
+        left: 0px;   
+        top: 120px;
+    }
+    aside .flower1, .flower2, .flower3 span{
+        display: inline-block;
+        font-size: 25px;
+        font-weight: bold;
+        color:#8e3e61;
+        position: relative;
+        right: 10px;
+    }
+    aside p{
+        color: #3e71b2;
+        font-weight: bold;
+        font-size: 23px;
+        margin: 5px;
+    }
+    footer{
+        border-top: 1px solid rgb(216, 215, 215);
+    }
+    footer ul{
+        padding: 0;
+        list-style:none;
+    }
+    footer ul li{
+        display: inline-block;
+        margin-left: 15px;
+    }
+    footer div{
+        position: relative;
+        top: -38px;
+        right: 10px;
+        float:right;
+    }
+}

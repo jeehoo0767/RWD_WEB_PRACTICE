@@ -1,0 +1,125 @@
+#world{
+    margin: 0 auto;
+    width: 440px;
+    position: relative;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#wrap{
+    background-color: #fff;
+    width: 404px;
+    margin: 0 auto;
+    border: 1px solid rgb(216, 215, 215);;
+}
+header{
+    height: 220px;
+}
+nav{
+    padding: 15px;
+    font-size: 18px;
+    background-color: #c51a3a;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+.nav-item a:hover{
+    background-color: #fff;
+    border-radius: 10px;
+    padding:10px 10px 20px 10px;
+    color:red;
+}
+.nav-item{
+    margin-left: 15px;
+    display:inline-block;
+    font-weight: normal;
+}
+article{
+}
+.article-content{
+    padding: 20px;
+}
+.article-content{
+    font-size: 18px;
+    font-weight: bold;
+}
+.article-content span{
+    color:orange;
+}
+aside{
+    text-align: center;
+    padding: 10px;
+}
+.consult>ul {
+    padding-left: 40px;
+    text-align: left;
+}
+.consult-header{
+    padding: 9px;
+    background-color: #e76c6e;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+aside ul{
+    padding: 0px;
+}
+aside ul li{
+    font-size: 14px;
+}
+aside ul li span{
+    font-weight: bold;
+}
+aside img{
+    width: 278px;
+    height: 202px;
+}
+.flower1, .flower2, .flower3{
+    padding-right: 10px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    border: 1px dotted #000;
+    border-radius: 15px;
+}
+.flower-name1, .flower-name2, .flower-name3{
+    background-color: rgba(255,255,255,0.5);
+    width: 278px;
+    text-align: right;
+    position: absolute;
+    left: 0px;   
+    top: 120px;
+}
+aside .flower1, .flower2, .flower3 span{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    color:#8e3e61;
+    position: relative;
+}
+aside p{
+    color: #3e71b2;
+    font-weight: bold;
+    font-size: 23px;
+    margin: 5px;
+}
+footer{
+    font-size: 13px;
+    border-top: 1px solid rgb(216, 215, 215);
+}
+footer ul{
+    padding: 0;
+    list-style:none;
+}
+footer ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+footer div{
+    position: relative;
+    top: -31px;
+    right: 10px;
+    float:right;
+}
+
